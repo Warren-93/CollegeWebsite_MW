@@ -1,0 +1,189 @@
+		
+	hr{opacity: 0.5;}
+	
+   	#nats, #sd, #gd, #cs, #ddwd{width:90%;  display:none;}  
+	
+	
+	
+	
+	
+	/* course titles text */ 
+    .title-bar {max-width:90%; max-height:100px; margin-left:5%; padding:2% 0 2% 0; font-family:quantico, "tahoma", "arial"; font-size:1.5em;  font-weight:normal; text-align:center; color:#f0f0f0; }
+	
+	.title{width:80%; margin-left: 8%; display:inline-block;}
+	/* Hide / Show Icon Right and left*/	
+	.arrow_all {
+		display: inline-block;
+		width: 8%;
+		}  /*if you want it initially showing */
+		
+	/*.arrow_all{display:none; }*/
+
+	/*course sub navigation background colour */
+	
+	.course_blue { 
+		background:#99d4ea;
+		}
+		
+	.course_green {
+		background:#80c798;
+		}
+		
+	.course_purple {
+		background:#8f6baa;
+		}
+	.course_orange {
+		background:#d6865b;
+		}
+	.course_pink {
+		background:#e884aa;
+		}
+	
+	/* Sub Navigation */
+	.course_submenu{
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-justify-content: center;
+		justify-content: center;
+		width:100%;
+		margin-left: 5.50%;
+    /*background-color: #80c798;*/
+	}
+	
+	.course_content, .career_oppertunities, .univercity_links, .sample_work {
+		width:50%; 
+		padding:3% 0% 3% 0%;  
+		font-family:quantico, "tahoma", "arial"; 
+		font-size:1em; font-weight:normal; 
+		text-align:center; color:#f0f0f0;  
+	    opacity: 255, 255, 255, 0.01;}
+	.course_content, .sample_work{background: rgba(0, 0, 0, 0.2);}
+	.career_oppertunities, .univercity_links{background: rgba(0, 0, 0, 0.4);}	
+	.course_content:hover , .career_oppertunities:hover , .univercity_links:hover , .sample_work:hover   {background: rgba(0, 0, 0, 0.5);}
+	
+	#nats_career_oppertunities, #nats_univercity_links, #nats_sample_work {display:none;}
+	
+	/* course content */
+	.contentlist{
+		margin-left:10%;    
+		background-color:inherit;
+		color:white;
+		}
+	.unit{
+		border-bottom: 2px solid #80c798;
+		text-align: center;
+		}	
+	
+	.unitName{
+		font-size: 1.5em;
+	    display: block;
+		padding-top:2%;
+        padding-bottom:2%;		  
+		}
+		
+	/* .unitDetail{display:none;} */
+	
+	.unitDetail{display:block;
+                font-size:1em;
+	} 
+	.unitImages {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-justify-content: center;
+		justify-content: center;
+		width:70%;
+		padding-top: 2%;
+		margin:auto;
+   	}
+	
+	.unitImagesInd{
+		width:60%;		
+	}
+	
+	.unitImagesInd img {max-width: 60%;
+		background-color: inherit;
+	}
+    
+	
+	/* -------------------- career opportunities --------------------*/
+	
+    .career-container {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-justify-content: center;
+		justify-content: center;
+		width:100%;
+		margin-left:10%;
+    }
+
+	.career-item {
+		background-color: #80c798;
+		width: 32%;
+		margin: 1%;
+		text-align: center;
+	}
+
+	.career-item img{max-width:100%;}	
+    
+	/* ------------------------ testimonials ------------------------ */
+	#sd_testimonials{display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+	-webkit-justify-content: center;
+    justify-content: center;
+	width:100%;
+	}
+	.sd_test {
+		margin-left:10%;
+		font-size:1em;
+		border: 1px solid #80c798;
+		width: 100%;
+		font-style:oblique;
+		padding:1% 3%;
+		text-align:left;
+	}
+	
+	.sd_test .student {
+    	background-color:#192632;
+	    font-style: normal;
+     }
+	 
+	 
+	/*////////////////////////////////////////////
+					MOBILE 480 PIXEL	larger than 480
+	////////////////////////////////////////////*/
+	@media(min-width:480px) {	
+	
+	/* Sub Navigation */
+	/*.course_content, .career_oppertunities, .univercity_links, .sample_work {font-size:1em; }*/
+	.course_content, .career_oppertunities, .univercity_links, .sample_work {width:25%;} 
+	.sd_test{
+			font-size:1.5em;
+		}
+	
+	}/* @Media END */
+	
+	
+	/*////////////////////////////////////////////
+					MOBILE 1080 PIXEL	larger than 1080
+	////////////////////////////////////////////*/
+	@media(min-width:1080px){
+		
+	/* Sub Navigation */
+	.course_content, .career_oppertunities, .univercity_links, .sample_work {font-size:1.5em; }
+	}/* @Media END */
+	
+	
+	
+	
+	
+	
+	
+	

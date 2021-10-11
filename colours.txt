@@ -1,0 +1,9 @@
+course-green #80c798;
+dark grey   #334352;
+darker grey footer    #192632;
+
+	.course_blue { background:#99d4ea;}
+	.course_green {background:#80c798;}     //  hover #34b671   (nano-green)//  dark green is 	
+	.course_purple {background:#8f6baa;}
+	.course_orange {background:#d6865b;}
+	.course_pink {background:#e884aa;}

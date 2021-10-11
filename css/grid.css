@@ -1,0 +1,16 @@
+.Grid{
+			/* Grid layout - Not support by IE11 or earlier */
+			/* Specify how many columns and rows */
+			/* repeat() is a loop function. 'fr' is a fraction of available space */
+			grid-template-columns: repeat(1, 1fr);
+			/* Notice we define 2 rows but we end up with more.
+			2 are explicitly created with our rules - others are implicitly created
+			following a generic set of properties */
+            grid-template-rows: repeat(1, 1fr);                       
+            grid-gap: 10px;
+			padding-bottom: 10%;			
+			}	
+	
+		
+		
+		

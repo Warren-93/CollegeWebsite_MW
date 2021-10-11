@@ -1,0 +1,179 @@
+	/* 
+	- RESET CSS -
+	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+	
+	- README -
+	CAREFUL CODER ~
+	You should not apply the following value "body {line-height:1;}" 
+	Doing so will cause the sticky footer effect to negate.
+	
+	Testing Environments
+	- Chrome Version 56.0.2924.87 (64-bit)
+	- IE 11.576.14393.0
+	*/
+
+	*{margin: 0; padding: 0; border: 0;  }
+
+	/* HTML5 display-role reset for older browsers */
+	/*article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+	body {line-height:2;}
+	ol, ul {list-style: none;}
+	blockquote, q {quotes: none;}
+	blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+	table {border-collapse: collapse; border-spacing: 0;}
+	*/
+	
+	/*
+	- Stylesheet -
+	https://titan-studios.net/
+	Grant Kellie
+	V1.0 | 20170131
+	
+	License: none (public domain)
+	
+	*/
+	
+	/*	- Global -  */	
+	
+	body{display:flex; min-width:320px; flex-direction:column; overflow-x:hidden; font-family:tahoma, "arial"; color:#f0f0f0;}
+	html,body {background:#334352;}
+	
+	header { width:100%;
+                 background:#294f71;
+                 border-bottom:solid 1px #192632;
+                 display: block;
+                 position: fixed;
+                
+        
+        } /* Min width will fall below 320px */
+	/* - Header should be looked at later so no fixed pixels and no background url - */
+	#logo 
+        {
+            width:207px; 
+            height:auto; 
+            min-height:70px;
+            display:inline; 
+            float:left; 
+            background:url("../images/logo/logo.png") no-repeat;
+            background-size:100%;
+        }	
+	#icon-block 
+        {
+            width:60px;
+            height:48px; 
+            margin-top:10px; 
+            float:right;
+            padding-bottom: 5px;
+            z-index: 9888;
+            
+        }
+        
+	#nav-mini 
+        {
+            width:48px; height:48px; 
+            margin-right:0px;
+            float:left;
+        }
+        
+	
+	/* Navigation */	
+	#nav-mini 
+        {
+            background:url("../images/header/nav_button.png") no-repeat;
+            background-size:100%;
+            z-index: 1;
+        }    
+	#nav-mini:hover
+        {
+                background:url("../images/header/nav_button.png") no-repeat;
+                background-size:100%;
+        }
+
+	.nano-enforcer {min-width:320px; height:0px; margin-top:10px; margin-bottom:0px; display:none;  z-index:9000; position:fixed; overflow:scroll;} /* onclick - display */
+	.nano {width:100%; height:auto; top:70px; padding-bottom:1px; background:#8297ac; display:none; position:relative; z-index:9001; position:fixed; }
+	.nav-con {width:100%;  min-width:320px; height:auto; padding:3.0% 0.5% 3.0% 0.5%; margin:0 auto; font-size:180%; text-align:center; display:block;}
+	.nano, .url {width:100%; margin:0 auto; text-align:center; color:#f0f0f0; font-family:quantico;}
+	.nano, .url:hover {color:#f0f0f0;}	
+	
+	.nano-blue {
+		background: linear-gradient(to right, #33ccff, #007399);
+		} 
+		
+		
+		.nano-blue:hover {
+		background:#65c4e2;
+		}
+		
+	.nano-green {
+		background:linear-gradient(to right, #00cc66, #004d26);
+		} 
+		
+		.nano-green:hover {
+			background:#34b671;
+			}	
+			
+	.nano-purple {
+		background:linear-gradient(to right, #9966ff, #5900b3);
+		} 
+		.nano-purple:hover {
+		background:#6c348e;
+		}	
+	.nano-orange {
+		background:linear-gradient(to right, #ff9900, #ff6600);
+	} 
+		.nano-orange:hover {
+		background:#ca5a28;
+	}	
+	.nano-pink {
+		background:linear-gradient(to right, #ff66ff, #cc00cc);
+		} 
+		.nano-pink:hover {
+			background:#ff66ff;
+			}
+			
+	.nano-menu{
+		background: #336699;		
+	}	
+		.nano-menu:hover{
+			background: #0099cc;
+		}
+			
+	/*end navigation -----------------------------------------------------------------------*/
+	
+	h1,h2,h3,h4,h5,h6 {font-family:quantico, "arial";}
+	
+	
+
+	a:hover, a:link, a:active, a:hover {color:#f0f0f0;}
+
+	a {font-weight:normal; font-style:normal; text-decoration:none;}
+	a href {color:#f0f0f0;}
+	/*label {cursor: default;} 	*/
+	
+	footer {
+		height:auto;
+		width:100%;
+		background:#011126;
+		bottom:0;
+		position:fixed;
+	}
+	footer #content {width:80%; padding:10px; margin:0 auto;}
+	
+	
+	@media (min-width:720px){
+	
+	/* - Header should be looked at later so no fixed pixels ******************** - */
+	#logo {width:300px; height:100px; }	
+	#icon-block {width:70px; height:60px; margin-top:20px; }
+	#nav-mini {width:60px; height:60px; margin-right:20px; }
+	}
+	
+	@media (min-width:720px){
+	/* Navigation */	
+	
+	.nano {top:100px; padding-top:0; padding-bottom:0.15%; border-bottom:solid 1px #192632;  }
+	.nav-con {width:50%;  min-width:25%; padding:3% 0% 3% 0%; margin:0 0 0 0; top:0; position:relative; font-size:150%; display:inline-block; float:left;}
+	}
+	
